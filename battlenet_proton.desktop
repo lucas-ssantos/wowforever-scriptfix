@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Battle.net
+GenericName=Blizzard Launcher
+Comment=Battle.net via Proton GE (MangoHUD, GameMode e Gamescope)
+Exec=/home/luke/.local/bin/battlenet.sh
+Icon=battlenet
+Terminal=false
+Categories=Game;
+StartupWMClass=battle.net.exe
+Actions=NoGamescope;NoMangoHud;Plain;
+
+[Desktop Action NoGamescope]
+Name=Iniciar sem Gamescope
+Exec=/home/luke/.local/bin/battlenet.sh --no-gamescope
+
+[Desktop Action NoMangoHud]
+Name=Iniciar sem MangoHUD
+Exec=/home/luke/.local/bin/battlenet.sh --no-mangohud
+
+[Desktop Action Plain]
+Name=Iniciar sem nada (só Proton)
+Exec=/home/luke/.local/bin/battlenet.sh --no-gamescope --no-mangohud --no-gamemode
