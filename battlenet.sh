@@ -16,10 +16,10 @@
 set -u
 
 # ----------------------------- Configurações -----------------------------
-PROTON="/home/luke/.steam/debian-installation/compatibilitytools.d/GE-Proton11-12/proton"
-STEAM_ROOT="/home/luke/.steam/debian-installation"
-PREFIX="/home/luke/Faugus/battlenet"
-BNET_EXE="/home/luke/Faugus/battlenet/pfx/pfx/pfx/pfx/drive_c/Program Files (x86)/Battle.net/Battle.net Launcher.exe"
+PROTON="/home/<user>/.steam/debian-installation/compatibilitytools.d/GE-Proton11-12/proton"
+STEAM_ROOT="/home/<user>/.steam/debian-installation"
+PREFIX="/home/<user>/Faugus/battlenet"
+BNET_EXE="/<user>/luke/Faugus/battlenet/pfx/pfx/pfx/pfx/drive_c/Program Files (x86)/Battle.net/Battle.net Launcher.exe"
 
 # Resolução do Gamescope
 WIDTH=1920
